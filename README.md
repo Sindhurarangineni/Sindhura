@@ -7,11 +7,15 @@ mvn clean install exec:java -Dplatform.dependencies -Dexec.mainClass=Stitching -
 
 ```
 
-Then take a look at the resulting file panorama_stitched.jpg/
+Then take a look at the resulting file panorama_stitched.jpg
 
 The way that Java interoperates with OpenCV is fairly faithful to the OpenCV api.
 The classes and methods (indeed many are static) in the resulting Java binding the
-same case as the C++ project. 
+same case as the C++ project.
+
+There's command line passing going on, which strictly speaking is not needed for
+a demo, as file names could be hard coded. It allows you to experiment a little,
+though.
 
 Note: The pom file contains a classifer for Mac (64bit) usage. Other classifiers
 might be better for your platform, in which case edit the pom first.
