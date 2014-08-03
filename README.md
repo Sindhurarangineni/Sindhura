@@ -1,4 +1,4 @@
-Demo of OpenCV usage via the Bytedeco generated Java binding for OpenCV.
+Demo project for using OpenCV from a generated Java binding (Bytedeco's jars made with JavaCPP)
 
 On the command line, run:
 
@@ -7,7 +7,8 @@ mvn clean install exec:java -Dplatform.dependencies -Dexec.mainClass=Stitching -
 
 ```
 
-Then take a look at the resulting file panorama_stitched.jpg
+Then take a look at the resulting file panorama_stitched.jpg.  The two pictures to
+stitch are taken from [Ramsri Goutham's blog entry on stitching panoramas with OpenCV](http://ramsrigoutham.com/2012/11/22/panorama-image-stitching-in-opencv).
 
 The way that Java interoperates with OpenCV is fairly faithful to the OpenCV api.
 The classes and methods (indeed many are static) in the resulting Java binding the
