@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.bytedeco.javacpp-presets.opencv</groupId>
-  <artifactId>stitching</artifactId>
+  <artifactId>stitching-demo</artifactId>
   <version>0.9</version>
   <dependencies>
     <dependency>
