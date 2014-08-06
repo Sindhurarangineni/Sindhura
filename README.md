@@ -1,4 +1,4 @@
-Demo project for using OpenCV from a generated Java binding (Bytedeco's jars made with JavaCPP)
+Demo project for using OpenCV from a generated Java binding made with [Bytedeco's](http://bytedeco.org/) JavaCPP technology.
 
 On the command line, run:
 
@@ -22,4 +22,4 @@ though.
 Note: The pom file contains a classifer for Mac (64bit) usage. Other classifiers
 might be better for your platform, in which case edit the pom first, commenting out/in lines as appropriate.
 
-After running the demo, you should be comfortable enough to use OpenCV in a Java solution of your own.
+After running the demo, you should be comfortable enough to use OpenCV in a Java solution of your own.  Be aware, though, that [JavaCV](https://github.com/bytedeco/javacv) is a more developed wrapper around OpenCV for real-world usage.
