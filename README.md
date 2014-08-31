@@ -3,7 +3,9 @@ Demo project for using OpenCV from a generated Java binding made with [Bytedeco'
 On the command line, run:
 
 ```
-mvn clean install exec:java -Dplatform.dependencies -Dexec.mainClass=Stitching -Dexec.args="panorama_image1.jpg panorama_image2.jpg --output panorama_stitched.jpg --try_use_gpu yes"
+mvn clean install exec:java -Dplatform.dependencies -Dexec.mainClass=Stitching \
+    -Dexec.args="panorama_image1.jpg panorama_image2.jpg" \
+	--output panorama_stitched.jpg --try_use_gpu yes
 
 ```
 First time through, this is going to go off to Maven's central repo and download Bytedeco, including the libraries for Windows, Linux and Mac (regardless of your current platform). 
